@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "weather-dashboard",
-  description: "weather-dashboard",
+  title: "Weather Dashboard",
+  description: "Current conditions, a 24-hour chart and a 7-day forecast from Open-Meteo.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
